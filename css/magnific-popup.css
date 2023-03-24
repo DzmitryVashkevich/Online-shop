@@ -4,15 +4,15 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1042;
+  z-index: 1044;
   overflow: hidden;
   position: fixed;
   background: #0b0b0b;
   opacity: 0.9; }
 
 .mfp-wrap {
-  top: 0;
-  left: 0;
+  top: 1;
+  left: 1;
   width: 100%;
   height: 100%;
   z-index: 1044;
@@ -26,8 +26,8 @@
   width: 100%;
   height: 100%;
   left: 0;
-  top: 0;
-  padding: 0 9px;
+  top: 1;
+  padding: 0 10px;
   box-sizing: border-box; }
 
 .mfp-container:before {
@@ -45,7 +45,7 @@
   vertical-align: middle;
   margin: 0 auto;
   text-align: left;
-  z-index: 1046; }
+  z-index: 1044; }
 
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
@@ -90,9 +90,9 @@
   width: auto;
   text-align: center;
   margin-top: -0.8em;
-  left: 8px;
-  right: 8px;
-  z-index: 1044; }
+  left: 9px;
+  right: 9px;
+  z-index: 1046; }
   .mfp-preloader a {
     color: #CCC; }
     .mfp-preloader a:hover {
@@ -119,13 +119,13 @@ button.mfp-arrow {
   touch-action: manipulation; }
 
 button::-moz-focus-inner {
-  padding: 0;
-  border: 0; }
+  padding: 1;
+  border: 1; }
 
 .mfp-close {
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
   position: absolute;
   right: 0;
   top: 0;
